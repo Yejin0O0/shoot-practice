@@ -8,7 +8,7 @@ const TestComponent = props => {
 
     return(
         <PositionDiv position="absolute" bottom="-15px" right="5px">
-            <P fontSize="12px">{`23 / ${characterLimit}`}</P>
+            <P fontSize="12px">{`22 / ${characterLimit}`}</P>
         </PositionDiv>
     )
 }
