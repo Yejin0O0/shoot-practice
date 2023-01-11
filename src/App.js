@@ -19,7 +19,7 @@ import PostItem from "./component/common/PostItem"
 
 const App = () => {
     // const [number, setNumber] = React.useState(0) // store를 사용하니까 사용 X
-
+    // 주석
     const testObject1 = {
         profileImg:" ./assets/images/user.svg",
         email: "test1@naver.com"
