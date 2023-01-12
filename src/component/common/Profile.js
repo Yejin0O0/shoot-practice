@@ -28,7 +28,7 @@ const Profile = props => {
             {
                 props.name && 
                 <Div margin="10px">
-                    <PointerDiv onClick={setMainContent}><P fontWeight="400" fontSize="18px">{props.name}</P></PointerDiv>
+                    <PointerDiv onClick={setMainContent}><P fontWeight="700" fontSize={props.isSubscribe == undefined ? "18px" : "24px"}>{props.name}</P></PointerDiv>
                     {
                         props.email && <Div><P>{email}</P></Div>
                     }

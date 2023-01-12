@@ -86,7 +86,7 @@ const App = () => {
             <Div><P>----------------------------------------------------------</P></Div>
             {/* Hashtag */}
             <Hashtag hashtag="test1"/>
-            <Hashtag hashtag="test2" close/>
+            <Hashtag hashtag="테스트2" close/>
 
             <Div><P>----------------------------------------------------------</P></Div>
             {/* IconText */}

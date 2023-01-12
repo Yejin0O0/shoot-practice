@@ -19,12 +19,12 @@ const Hashtag = props => {
     }
 
     return(
-        <FlexBorderDiv id={`hash_${hashtag}`} height="18px" padding="5px" border="2px solid #C8C8C8" borderRadius="99px" align-items justify-content>
+        <FlexBorderDiv id={`hash_${hashtag}`} height="20px" padding="5px" border="2px solid #C8C8C8" borderRadius="99px" align-items justify-content>
             <Div width="20px" height="20px"><Img src="./assets/images/hashtag.svg"/></Div>
-            <Div margin="0 4px"><P fontWeight="400" color="#C8C8C8">{hashtag}</P></Div>
+            <Div margin="0 4px" height="20px"><P fontWeight="400" color="#C8C8C8">{hashtag}</P></Div>
             {
                 props.close &&
-                <FlexDiv onClick={removeHashtag} width="inherit" height="inherit" margin="0 4px 0 10px"><Img src="./assets/images/close.svg"/></FlexDiv>
+                <FlexDiv onClick={removeHashtag} width="inherit" height="inherit"><Img src="./assets/images/close.svg"/></FlexDiv>
             }
         </FlexBorderDiv>
     )
