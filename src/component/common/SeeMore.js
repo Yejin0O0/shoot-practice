@@ -25,7 +25,7 @@ const SeeMoreBox = styled(FlexDiv)`
     padding: 5px;
     position: absolute;
     bottom: 0;
-    left: -130px;
+    left: -115px;
     flex-direction: column;
     background-color: #FFFFFF;
     border: 1px solid #C8C8C8;
