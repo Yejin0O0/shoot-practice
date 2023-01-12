@@ -11,8 +11,8 @@ import Profile from "./Profile"
 const Article = styled.article`
     flex-grow: 1;
     flex-basis: 0%;
-    padding: 10px 8px 25px;
-    min-width: 250px;
+    padding: 15px 20px 35px;
+    min-width: 180px;
 `
 
 const BorderPointerDiv = styled(PointerDiv)`
